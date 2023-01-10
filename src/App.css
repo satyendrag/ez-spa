@@ -1,0 +1,35 @@
+
+.marker{
+  
+    position: relative;
+    margin-left: 36px;
+    
+}
+.marker::before{
+  
+    content: '';
+        display: block;
+        position: absolute;        
+        width: 24px;
+        height: 24px;
+        background-image: url('./assets/about_tick.png');
+        background-size: cover;
+        background-position: center;
+        left: -36px; 
+       
+}
+.circle{
+    position: relative;
+}
+.circle::after{
+        content: '';
+        display: block;
+        position: absolute;        
+        width: 50px;
+        height: 50px;
+        right: 32px;
+        top:-25px;
+        background-color: #7E8E1C;
+        border-radius: 50%;
+       
+}
